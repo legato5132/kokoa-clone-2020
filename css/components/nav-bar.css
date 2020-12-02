@@ -1,0 +1,43 @@
+.nav {
+  background-color: #e5e7eb;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid #a0a0a066;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__a {
+  position: relative;
+  color: #363c42;
+}
+.nav__notification {
+  background-color: rgb(252, 118, 118);
+  width: 24px;
+  height: 24px;
+  display: flex;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+.nav__dot {
+  background-color: rgb(252, 118, 118);
+  display: flex;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 28px;
+  left: 40px;
+}
