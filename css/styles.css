@@ -6,11 +6,16 @@
 @import "components/welcome-header.css";
 @import "components/screen-header.css";
 @import "components/nav-bar.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
-@import "screens/user-component.css";
+
+.main-screen {
+  padding: var(--horizontal-space);
+}
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

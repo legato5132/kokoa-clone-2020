@@ -16,3 +16,13 @@
   margin-left: 10px;
   opacity: 0.1;
 }
+
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  opacity: 0.4;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+}
