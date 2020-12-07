@@ -1,0 +1,107 @@
+.find-icons {
+  padding: 20px 0px;
+  box-sizing: border-box;
+
+  bottom: 0px;
+  width: 100%;
+}
+.find-icons__ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-icons__a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__text {
+  display: block;
+  padding-top: 15px;
+}
+.recommended-friends {
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  padding: 10px 0px;
+}
+.recommended-friends__header {
+  font-size: 15px;
+  opacity: 0.4;
+}
+
+.recommended-friends span {
+  margin: 100px 0px;
+  display: block;
+  text-align: center;
+  opacity: 0.4;
+  font-size: 18px;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  opacity: 0.4;
+  padding: 10px 0px;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.open-post__title {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.open-post__hashtags {
+  opacity: 0.4;
+  font-size: 15px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.open-post__members {
+  font-size: 14px;
+  opacity: 0.4;
+  display: flex;
+  align-items: center;
+}
+.open-post__members img {
+  height: 15px;
+  width: 15px;
+  border-radius: 7.5px;
+  margin-right: 3px;
+}
+.open-post__members .divider {
+  width: 1.2px;
+  height: 15px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 0px 3px;
+}
+.open-post__members-status {
+  opacity: 1;
+  color: #ffb0e0;
+}
+.open-post__photo {
+  position: relative;
+}
+.open-post__photo img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  bottom: 7px;
+  right: 2px;
+  padding: 3px;
+}

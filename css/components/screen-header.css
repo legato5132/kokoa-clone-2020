@@ -9,10 +9,30 @@
   font-size: 30px;
   font-weight: 500;
 }
-
+.screen-header__icons span:first-child {
+  margin-right: 25px;
+}
 .screen-header__icons span:last-child {
   margin-left: 25px;
 }
-.screen-header__icons span:nth-child(2) {
-  margin: 0px 25px;
+.screen-header__icons span:nth-child(3) {
+  margin-left: 25px;
+}
+
+.screen-header__icons-find span:first-child {
+  margin-right: 25px;
+  position: relative;
+}
+
+.screen-header__dot {
+  background-color: rgb(252, 118, 118);
+  display: flex;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 55px;
 }
