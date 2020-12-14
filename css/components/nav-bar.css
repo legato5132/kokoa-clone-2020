@@ -15,6 +15,17 @@
   position: relative;
   color: #363c42;
 }
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 .nav__notification {
   background-color: rgb(252, 118, 118);
   width: 24px;
@@ -28,6 +39,7 @@
   position: absolute;
   bottom: 15px;
   left: 15px;
+  animation: notificationAnimation 1s linear infinite;
 }
 .nav__dot {
   background-color: rgb(252, 118, 118);
